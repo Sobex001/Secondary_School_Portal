@@ -19,7 +19,7 @@ namespace Secondary_School_Portal.Models.Entities
         public ICollection<Result>? Results { get; set; }
         public ICollection<ReportCard>? ReportCards { get; set; }
         public ICollection<Assignment>? Assignments { get; set; }
-        public Parent Parent { get; set; } = default!;
-        public int ParentId { get; set; }
+        public Parent? Parent { get; set; }
+        public int? ParentId { get; set; }
     }
 }
