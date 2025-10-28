@@ -12,8 +12,7 @@ namespace Secondary_School_Portal.Models.Entities
         public DateTime UploadDate { get; set; } = DateTime.UtcNow;
         public AppUser UploadedBy { get; set; }
         public string UploadedById { get; set; } = string.Empty;
-        public int SessionYear { get; set; } 
-        public bool IsActive { get; set; } = true; 
-
+        public int SessionYear { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }
